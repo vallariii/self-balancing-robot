@@ -83,35 +83,9 @@ The motor driver controls:
 
 Motor corrections are continuously updated based on the PID output.
 
-## Repository Structure
-
-```text
-self-balancing-robot/
-│
-├── README.md
-├── src/
-│   └── newestselfbalancing.ino
-├── experiments/
-│   ├── pid_code.ino
-│   └── mq9test.ino
-└── images/
-```
-
 ## Results
 
 The implemented system demonstrates closed-loop balance control using real-time IMU feedback and PID-based motor correction.
 
 The controller was tested by observing the robot's response to changes in its tilt and adjusting the PID parameters to improve stability.
 
-## Future Improvements
-
-* Improve PID parameter tuning
-* Add more systematic performance testing
-* Improve mechanical balancing and motor calibration
-* Add logging of sensor and controller data
-* Develop automated test procedures for controller performance
-
-## Author
-
-Vallari Bhoyar
-B.Tech Electronics and Communication Engineering
